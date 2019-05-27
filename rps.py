@@ -37,13 +37,9 @@ def player_choice()  :
 
 
 def game(): 
-    if player +1 == comp:
+    if player +1 == comp or (player == 3 and comp == 1):
         print("You Lose!")
         global compwins
-        compwins += 1
-    elif player == 3 and comp == 1: 
-        print ("You Lose!")
-        
         compwins += 1
     elif player == comp : 
         print("Its a tie!")

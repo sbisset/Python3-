@@ -6,5 +6,5 @@ if len(sys.argv) > 1:
 else:
     # Get address from clipboard.
     print("Usage:", sys.argv[0],"ADRESS")
-    exit 
+    exit
 
